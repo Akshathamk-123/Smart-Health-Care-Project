@@ -1,0 +1,29 @@
+#pricing{
+    padding: 100px;
+    color: black;
+  }
+  
+  
+  .Pricing_head{
+    text-align: center;
+    padding-bottom: 20px;
+   color: black;
+  }
+  
+  .card-body{
+    text-align: center;
+  color: black;
+  }
+
+  
+.allbackground {
+  background: url(../img/allbg.jpeg) top right no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+
+p {
+  color: black;
+}

@@ -1,0 +1,10 @@
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-body{
+    background-color: rgb(195, 236, 254);
+}
+.card-header{
+    background-color: #354F8E;
+    color: #00E7FF;
+}

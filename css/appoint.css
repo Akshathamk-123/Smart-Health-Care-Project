@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-blue {
+    background-color: #054d7c;
+}
+
+.bg-red {
+    background-color:#5ccdbc;
+}
+
+.bg-darkred {
+    background-color:#5ccdbc;
+    border: none;
+    color: #fff !important;
+}
+
+p {
+    color: #ddd;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+select {
+    font-size: 13px !important;
+}
+
+#inputState:focus {
+    background-color: #5ccdbc;
+    color: #fff;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: white !important;
+    font-size: 13px;
+}
+
+input:focus {
+    background-color: #5ccdbc !important;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+textarea:focus {
+    background-color: #5ccdbc !important;
+}
+
+#dropDown {
+    height: 100%;
+    padding-bottom: 8px;
+}
+
+#dropDown.form-control {
+    appearance: revert;
+    color: #fff;
+}
+
+#dropDown.form-control:focus {
+    background-color: #5ccdbc;
+}
+
+.btn {
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.msg-btn {
+    height: 70px;
+}
+
+.btn:hover {
+    background-color: #efefef;
+}
