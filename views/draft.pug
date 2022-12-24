@@ -1,0 +1,589 @@
+html
+  head
+  body
+    | extends layout
+    //
+      block content
+      h1= title
+      p Hello to  title
+      -- >
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="utf-8">
+      <title>MEDINOVA - Hospital Website Template</title>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="Free HTML Templates" name="keywords">
+      <meta content="Free HTML Templates" name="description">
+      <!-- Favicon
+    link(href='img/favicon.ico', rel='icon')
+    // Google Web Fonts
+    link(rel='preconnect', href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap', rel='stylesheet')
+    // Icon Font Stylesheet
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css', rel='stylesheet')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css', rel='stylesheet')
+    // Libraries Stylesheet
+    link(href='lib/owlcarousel/assets/owl.carousel.min.css', rel='stylesheet')
+    link(href='lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css', rel='stylesheet')
+    // Customized Bootstrap Stylesheet
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    // Template Stylesheet
+    link(href='css/style.css', rel='stylesheet')
+    // Topbar Start
+    .container-fluid.py-2.border-bottom.d-none.d-lg-block
+      .container
+        .row
+          .col-md-6.text-center.text-lg-start.mb-2.mb-lg-0
+            .d-inline-flex.align-items-center
+              a.text-decoration-none.text-body.pe-3(href='')
+                i.bi.bi-telephone.me-2
+                | +012 345 6789
+              span.text-body |
+              a.text-decoration-none.text-body.px-3(href='')
+                i.bi.bi-envelope.me-2
+                | info@example.com
+          .col-md-6.text-center.text-lg-end
+            .d-inline-flex.align-items-center
+              a.text-body.px-2(href='')
+                i.fab.fa-facebook-f
+              a.text-body.px-2(href='')
+                i.fab.fa-twitter
+              a.text-body.px-2(href='')
+                i.fab.fa-linkedin-in
+              a.text-body.px-2(href='')
+                i.fab.fa-instagram
+              a.text-body.ps-2(href='')
+                i.fab.fa-youtube
+    // Topbar End
+    // Navbar Start
+    .container-fluid.sticky-top.bg-white.shadow-sm
+      .container
+        nav.navbar.navbar-expand-lg.bg-white.navbar-light.py-3.py-lg-0
+          a.navbar-brand(href='index.html')
+            h1.m-0.text-uppercase.text-primary
+              i.fa.fa-clinic-medical.me-2
+              | Medinova
+          button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarCollapse')
+            span.navbar-toggler-icon
+          #navbarCollapse.collapse.navbar-collapse
+            .navbar-nav.ms-auto.py-0
+              a.nav-item.nav-link.active(href='index.html') Home
+              a.nav-item.nav-link(href='about.html') About
+              a.nav-item.nav-link(href='service.html') Service
+              a.nav-item.nav-link(href='price.html') Pricing
+              .nav-item.dropdown
+                a.nav-link.dropdown-toggle(href='#', data-bs-toggle='dropdown') Pages
+                .dropdown-menu.m-0
+                  a.dropdown-item(href='blog.html') Blog Grid
+                  a.dropdown-item(href='detail.html') Blog Detail
+                  a.dropdown-item(href='team.html') The Team
+                  a.dropdown-item(href='testimonial.html') Testimonial
+                  a.dropdown-item(href='appointment.html') Appointment
+                  a.dropdown-item(href='search.html') Search
+              a.nav-item.nav-link(href='contact.html') Contact
+    // Navbar End
+    // Hero Start
+    .container-fluid.bg-primary.py-5.mb-5.hero-header
+      .container.py-5
+        .row.justify-content-start
+          .col-lg-8.text-center.text-lg-start
+            h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5(style='border-color: rgba(256, 256, 256, .3) !important;') Welcome To Medinova
+            h1.display-1.text-white.mb-md-4 Best Healthcare Solution In Your City
+            .pt-2
+              a.btn.btn-light.rounded-pill.py-md-3.px-md-5.mx-2(href='') Find Doctor
+              a.btn.btn-outline-light.rounded-pill.py-md-3.px-md-5.mx-2(href='') Appointment
+    // Hero End
+    // About Start
+    .container-fluid.py-5
+      .container
+        .row.gx-5
+          .col-lg-5.mb-5.mb-lg-0(style='min-height: 500px;')
+            .position-relative.h-100
+              img.position-absolute.w-100.h-100.rounded(src='img/about.jpg', style='object-fit: cover;')
+          .col-lg-7
+            .mb-4
+              h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 About Us
+              h1.display-4 Best Medical Care For Yourself and Your Family
+            p
+              | Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna
+            .row.g-3.pt-3
+              .col-sm-3.col-6
+                .bg-light.text-center.rounded-circle.py-4
+                  i.fa.fa-3x.fa-user-md.text-primary.mb-3
+                  h6.mb-0
+                    | Qualified
+                    small.d-block.text-primary Doctors
+              .col-sm-3.col-6
+                .bg-light.text-center.rounded-circle.py-4
+                  i.fa.fa-3x.fa-procedures.text-primary.mb-3
+                  h6.mb-0
+                    | Emergency
+                    small.d-block.text-primary Services
+              .col-sm-3.col-6
+                .bg-light.text-center.rounded-circle.py-4
+                  i.fa.fa-3x.fa-microscope.text-primary.mb-3
+                  h6.mb-0
+                    | Accurate
+                    small.d-block.text-primary Testing
+              .col-sm-3.col-6
+                .bg-light.text-center.rounded-circle.py-4
+                  i.fa.fa-3x.fa-ambulance.text-primary.mb-3
+                  h6.mb-0
+                    | Free
+                    small.d-block.text-primary Ambulance
+    // About End
+    // Services Start
+    .container-fluid.py-5
+      .container
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 Services
+          h1.display-4 Excellent Medical Services
+        .row.g-5
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-user-md.text-white
+              h4.mb-3 Emergency Care
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-procedures.text-white
+              h4.mb-3 Operation &amp; Surgery
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-stethoscope.text-white
+              h4.mb-3 Outdoor Checkup
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-ambulance.text-white
+              h4.mb-3 Ambulance Service
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-pills.text-white
+              h4.mb-3 Medicine &amp; Pharmacy
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+          .col-lg-4.col-md-6
+            .service-item.bg-light.rounded.d-flex.flex-column.align-items-center.justify-content-center.text-center
+              .service-icon.mb-4
+                i.fa.fa-2x.fa-microscope.text-white
+              h4.mb-3 Blood Testing
+              p.m-0
+                | Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+              a.btn.btn-lg.btn-primary.rounded-pill(href='')
+                i.bi.bi-arrow-right
+    // Services End
+    // Appointment Start
+    .container-fluid.bg-primary.my-5.py-5
+      .container.py-5
+        .row.gx-5
+          .col-lg-6.mb-5.mb-lg-0
+            .mb-4
+              h5.d-inline-block.text-white.text-uppercase.border-bottom.border-5 Appointment
+              h1.display-4 Make An Appointment For Your Family
+            p.text-white.mb-5
+              | Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.
+            a.btn.btn-dark.rounded-pill.py-3.px-5.me-3(href='') Find Doctor
+            a.btn.btn-outline-dark.rounded-pill.py-3.px-5(href='') Read More
+          .col-lg-6
+            .bg-white.text-center.rounded.p-5
+              h1.mb-4 Book An Appointment
+              form
+                .row.g-3
+                  .col-12.col-sm-6
+                    select.form-select.bg-light.border-0(style='height: 55px;')
+                      option(selected='') Choose Department
+                      option(value='1') Department 1
+                      option(value='2') Department 2
+                      option(value='3') Department 3
+                  .col-12.col-sm-6
+                    select.form-select.bg-light.border-0(style='height: 55px;')
+                      option(selected='') Select Doctor
+                      option(value='1') Doctor 1
+                      option(value='2') Doctor 2
+                      option(value='3') Doctor 3
+                  .col-12.col-sm-6
+                    input.form-control.bg-light.border-0(type='text', placeholder='Your Name', style='height: 55px;')
+                  .col-12.col-sm-6
+                    input.form-control.bg-light.border-0(type='email', placeholder='Your Email', style='height: 55px;')
+                  .col-12.col-sm-6
+                    #date.date(data-target-input='nearest')
+                      input.form-control.bg-light.border-0.datetimepicker-input(type='text', placeholder='Date', data-target='#date', data-toggle='datetimepicker', style='height: 55px;')
+                  .col-12.col-sm-6
+                    #time.time(data-target-input='nearest')
+                      input.form-control.bg-light.border-0.datetimepicker-input(type='text', placeholder='Time', data-target='#time', data-toggle='datetimepicker', style='height: 55px;')
+                  .col-12
+                    button.btn.btn-primary.w-100.py-3(type='submit') Make An Appointment
+    // Appointment End
+    // Pricing Plan Start
+    .container-fluid.py-5
+      .container
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 Medical Packages
+          h1.display-4 Awesome Medical Programs
+        .owl-carousel.price-carousel.position-relative(style='padding: 0 45px 45px 45px;')
+          .bg-light.rounded.text-center
+            .position-relative
+              img.img-fluid.rounded-top(src='img/price-1.jpg', alt='')
+              .position-absolute.w-100.h-100.top-50.start-50.translate-middle.rounded-top.d-flex.flex-column.align-items-center.justify-content-center(style='background: rgba(29, 42, 77, .8);')
+                h3.text-white Pregnancy Care
+                h1.display-4.text-white.mb-0
+                  small.align-top.fw-normal(style='font-size: 22px; line-height: 45px;') $
+                  | 49
+                  small.align-bottom.fw-normal(style='font-size: 16px; line-height: 40px;') / Year
+            .text-center.py-5
+              p Emergency Medical Treatment
+              p Highly Experienced Doctors
+              p Highest Success Rate
+              p Telephone Service
+              a.btn.btn-primary.rounded-pill.py-3.px-5.my-2(href='') Apply Now
+          .bg-light.rounded.text-center
+            .position-relative
+              img.img-fluid.rounded-top(src='img/price-2.jpg', alt='')
+              .position-absolute.w-100.h-100.top-50.start-50.translate-middle.rounded-top.d-flex.flex-column.align-items-center.justify-content-center(style='background: rgba(29, 42, 77, .8);')
+                h3.text-white Health Checkup
+                h1.display-4.text-white.mb-0
+                  small.align-top.fw-normal(style='font-size: 22px; line-height: 45px;') $
+                  | 99
+                  small.align-bottom.fw-normal(style='font-size: 16px; line-height: 40px;') / Year
+            .text-center.py-5
+              p Emergency Medical Treatment
+              p Highly Experienced Doctors
+              p Highest Success Rate
+              p Telephone Service
+              a.btn.btn-primary.rounded-pill.py-3.px-5.my-2(href='') Apply Now
+          .bg-light.rounded.text-center
+            .position-relative
+              img.img-fluid.rounded-top(src='img/price-3.jpg', alt='')
+              .position-absolute.w-100.h-100.top-50.start-50.translate-middle.rounded-top.d-flex.flex-column.align-items-center.justify-content-center(style='background: rgba(29, 42, 77, .8);')
+                h3.text-white Dental Care
+                h1.display-4.text-white.mb-0
+                  small.align-top.fw-normal(style='font-size: 22px; line-height: 45px;') $
+                  | 149
+                  small.align-bottom.fw-normal(style='font-size: 16px; line-height: 40px;') / Year
+            .text-center.py-5
+              p Emergency Medical Treatment
+              p Highly Experienced Doctors
+              p Highest Success Rate
+              p Telephone Service
+              a.btn.btn-primary.rounded-pill.py-3.px-5.my-2(href='') Apply Now
+          .bg-light.rounded.text-center
+            .position-relative
+              img.img-fluid.rounded-top(src='img/price-4.jpg', alt='')
+              .position-absolute.w-100.h-100.top-50.start-50.translate-middle.rounded-top.d-flex.flex-column.align-items-center.justify-content-center(style='background: rgba(29, 42, 77, .8);')
+                h3.text-white Operation &amp; Surgery
+                h1.display-4.text-white.mb-0
+                  small.align-top.fw-normal(style='font-size: 22px; line-height: 45px;') $
+                  | 199
+                  small.align-bottom.fw-normal(style='font-size: 16px; line-height: 40px;') / Year
+            .text-center.py-5
+              p Emergency Medical Treatment
+              p Highly Experienced Doctors
+              p Highest Success Rate
+              p Telephone Service
+              a.btn.btn-primary.rounded-pill.py-3.px-5.my-2(href='') Apply Now
+    // Pricing Plan End
+    // Team Start
+    .container-fluid.py-5
+      .container
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 Our Doctors
+          h1.display-4 Qualified Healthcare Professionals
+        .owl-carousel.team-carousel.position-relative
+          .team-item
+            .row.g-0.bg-light.rounded.overflow-hidden
+              .col-12.col-sm-5.h-100
+                img.img-fluid.h-100(src='img/team-1.jpg', style='object-fit: cover;')
+              .col-12.col-sm-7.h-100.d-flex.flex-column
+                .mt-auto.p-4
+                  h3 Doctor Name
+                  h6.fw-normal.fst-italic.text-primary.mb-4 Cardiology Specialist
+                  p.m-0 Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor
+                .d-flex.mt-auto.border-top.p-4
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-twitter
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-facebook-f
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle(href='#')
+                    i.fab.fa-linkedin-in
+          .team-item
+            .row.g-0.bg-light.rounded.overflow-hidden
+              .col-12.col-sm-5.h-100
+                img.img-fluid.h-100(src='img/team-2.jpg', style='object-fit: cover;')
+              .col-12.col-sm-7.h-100.d-flex.flex-column
+                .mt-auto.p-4
+                  h3 Doctor Name
+                  h6.fw-normal.fst-italic.text-primary.mb-4 Cardiology Specialist
+                  p.m-0 Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor
+                .d-flex.mt-auto.border-top.p-4
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-twitter
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-facebook-f
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle(href='#')
+                    i.fab.fa-linkedin-in
+          .team-item
+            .row.g-0.bg-light.rounded.overflow-hidden
+              .col-12.col-sm-5.h-100
+                img.img-fluid.h-100(src='img/team-3.jpg', style='object-fit: cover;')
+              .col-12.col-sm-7.h-100.d-flex.flex-column
+                .mt-auto.p-4
+                  h3 Doctor Name
+                  h6.fw-normal.fst-italic.text-primary.mb-4 Cardiology Specialist
+                  p.m-0 Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor
+                .d-flex.mt-auto.border-top.p-4
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-twitter
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-3(href='#')
+                    i.fab.fa-facebook-f
+                  a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle(href='#')
+                    i.fab.fa-linkedin-in
+    // Team End
+    // Search Start
+    .container-fluid.bg-primary.my-5.py-5
+      .container.py-5
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-white.text-uppercase.border-bottom.border-5 Find A Doctor
+          h1.display-4.mb-4 Find A Healthcare Professionals
+          h5.text-white.fw-normal
+            | Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo
+        .mx-auto(style='width: 100%; max-width: 600px;')
+          .input-group
+            select.form-select.border-primary.w-25(style='height: 60px;')
+              option(selected='') Department
+              option(value='1') Department 1
+              option(value='2') Department 2
+              option(value='3') Department 3
+            input.form-control.border-primary.w-50(type='text', placeholder='Keyword')
+            button.btn.btn-dark.border-0.w-25 Search
+    // Search End
+    // Testimonial Start
+    .container-fluid.py-5
+      .container
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 Testimonial
+          h1.display-4 Patients Say About Our Services
+        .row.justify-content-center
+          .col-lg-8
+            .owl-carousel.testimonial-carousel
+              .testimonial-item.text-center
+                .position-relative.mb-5
+                  img.img-fluid.rounded-circle.mx-auto(src='img/testimonial-1.jpg', alt='')
+                  .position-absolute.top-100.start-50.translate-middle.d-flex.align-items-center.justify-content-center.bg-white.rounded-circle(style='width: 60px; height: 60px;')
+                    i.fa.fa-quote-left.fa-2x.text-primary
+                p.fs-4.fw-normal
+                  | Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.
+                hr.w-25.mx-auto
+                h3 Patient Name
+                h6.fw-normal.text-primary.mb-3 Profession
+              .testimonial-item.text-center
+                .position-relative.mb-5
+                  img.img-fluid.rounded-circle.mx-auto(src='img/testimonial-2.jpg', alt='')
+                  .position-absolute.top-100.start-50.translate-middle.d-flex.align-items-center.justify-content-center.bg-white.rounded-circle(style='width: 60px; height: 60px;')
+                    i.fa.fa-quote-left.fa-2x.text-primary
+                p.fs-4.fw-normal
+                  | Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.
+                hr.w-25.mx-auto
+                h3 Patient Name
+                h6.fw-normal.text-primary.mb-3 Profession
+              .testimonial-item.text-center
+                .position-relative.mb-5
+                  img.img-fluid.rounded-circle.mx-auto(src='img/testimonial-3.jpg', alt='')
+                  .position-absolute.top-100.start-50.translate-middle.d-flex.align-items-center.justify-content-center.bg-white.rounded-circle(style='width: 60px; height: 60px;')
+                    i.fa.fa-quote-left.fa-2x.text-primary
+                p.fs-4.fw-normal
+                  | Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.
+                hr.w-25.mx-auto
+                h3 Patient Name
+                h6.fw-normal.text-primary.mb-3 Profession
+    // Testimonial End
+    // Blog Start
+    .container-fluid.py-5
+      .container
+        .text-center.mx-auto.mb-5(style='max-width: 500px;')
+          h5.d-inline-block.text-primary.text-uppercase.border-bottom.border-5 Blog Post
+          h1.display-4 Our Latest Medical Blog Posts
+        .row.g-5
+          .col-xl-4.col-lg-6
+            .bg-light.rounded.overflow-hidden
+              img.img-fluid.w-100(src='img/blog-1.jpg', alt='')
+              .p-4
+                a.h3.d-block.mb-3(href='') Dolor clita vero elitr sea stet dolor justo  diam
+                p.m-0
+                  | Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
+                  | rebum clita rebum dolor stet amet justo
+              .d-flex.justify-content-between.border-top.p-4
+                .d-flex.align-items-center
+                  img.rounded-circle.me-2(src='img/user.jpg', width='25', height='25', alt='')
+                  small John Doe
+                .d-flex.align-items-center
+                  small.ms-3
+                    i.far.fa-eye.text-primary.me-1
+                    | 12345
+                  small.ms-3
+                    i.far.fa-comment.text-primary.me-1
+                    | 123
+          .col-xl-4.col-lg-6
+            .bg-light.rounded.overflow-hidden
+              img.img-fluid.w-100(src='img/blog-2.jpg', alt='')
+              .p-4
+                a.h3.d-block.mb-3(href='') Dolor clita vero elitr sea stet dolor justo  diam
+                p.m-0
+                  | Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
+                  | rebum clita rebum dolor stet amet justo
+              .d-flex.justify-content-between.border-top.p-4
+                .d-flex.align-items-center
+                  img.rounded-circle.me-2(src='img/user.jpg', width='25', height='25', alt='')
+                  small John Doe
+                .d-flex.align-items-center
+                  small.ms-3
+                    i.far.fa-eye.text-primary.me-1
+                    | 12345
+                  small.ms-3
+                    i.far.fa-comment.text-primary.me-1
+                    | 123
+          .col-xl-4.col-lg-6
+            .bg-light.rounded.overflow-hidden
+              img.img-fluid.w-100(src='img/blog-3.jpg', alt='')
+              .p-4
+                a.h3.d-block.mb-3(href='') Dolor clita vero elitr sea stet dolor justo  diam
+                p.m-0
+                  | Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
+                  | rebum clita rebum dolor stet amet justo
+              .d-flex.justify-content-between.border-top.p-4
+                .d-flex.align-items-center
+                  img.rounded-circle.me-2(src='img/user.jpg', width='25', height='25', alt='')
+                  small John Doe
+                .d-flex.align-items-center
+                  small.ms-3
+                    i.far.fa-eye.text-primary.me-1
+                    | 12345
+                  small.ms-3
+                    i.far.fa-comment.text-primary.me-1
+                    | 123
+    // Blog End
+    // Footer Start
+    .container-fluid.bg-dark.text-light.mt-5.py-5
+      .container.py-5
+        .row.g-5
+          .col-lg-3.col-md-6
+            h4.d-inline-block.text-primary.text-uppercase.border-bottom.border-5.border-secondary.mb-4 Get In Touch
+            p.mb-4
+              | No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor
+            p.mb-2
+              i.fa.fa-map-marker-alt.text-primary.me-3
+              | 123 Street, New York, USA
+            p.mb-2
+              i.fa.fa-envelope.text-primary.me-3
+              | info@example.com
+            p.mb-0
+              i.fa.fa-phone-alt.text-primary.me-3
+              | +012 345 67890
+          .col-lg-3.col-md-6
+            h4.d-inline-block.text-primary.text-uppercase.border-bottom.border-5.border-secondary.mb-4 Quick Links
+            .d-flex.flex-column.justify-content-start
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Home
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | About Us
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Our Services
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Meet The Team
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Latest Blog
+              a.text-light(href='#')
+                i.fa.fa-angle-right.me-2
+                | Contact Us
+          .col-lg-3.col-md-6
+            h4.d-inline-block.text-primary.text-uppercase.border-bottom.border-5.border-secondary.mb-4 Popular Links
+            .d-flex.flex-column.justify-content-start
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Home
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | About Us
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Our Services
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Meet The Team
+              a.text-light.mb-2(href='#')
+                i.fa.fa-angle-right.me-2
+                | Latest Blog
+              a.text-light(href='#')
+                i.fa.fa-angle-right.me-2
+                | Contact Us
+          .col-lg-3.col-md-6
+            h4.d-inline-block.text-primary.text-uppercase.border-bottom.border-5.border-secondary.mb-4 Newsletter
+            form(action='')
+              .input-group
+                input.form-control.p-3.border-0(type='text', placeholder='Your Email Address')
+                button.btn.btn-primary Sign Up
+            h6.text-primary.text-uppercase.mt-4.mb-3 Follow Us
+            .d-flex
+              a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-2(href='#')
+                i.fab.fa-twitter
+              a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-2(href='#')
+                i.fab.fa-facebook-f
+              a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle.me-2(href='#')
+                i.fab.fa-linkedin-in
+              a.btn.btn-lg.btn-primary.btn-lg-square.rounded-circle(href='#')
+                i.fab.fa-instagram
+    .container-fluid.bg-dark.text-light.border-top.border-secondary.py-4
+      .container
+        .row.g-5
+          .col-md-6.text-center.text-md-start
+            p.mb-md-0
+              | &copy; 
+              a.text-primary(href='#') Your Site Name
+              | . All Rights Reserved.
+          .col-md-6.text-center.text-md-end
+            p.mb-0
+              | Designed by 
+              a.text-primary(href='https://htmlcodex.com') HTML Codex
+    // Footer End
+    // Back to Top
+    a.btn.btn-lg.btn-primary.btn-lg-square.back-to-top(href='#')
+      i.bi.bi-arrow-up
+    // JavaScript Libraries
+    //
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/tempusdominus/js/moment.min.js"></script>
+      <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+      <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    // Template Javascript
+    script(src='js/main.js')
