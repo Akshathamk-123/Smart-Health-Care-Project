@@ -3,7 +3,7 @@
 This is the project to help Patients book their appoinments with the doctor of their choice and enabling tracking of their own health records to ensure the betterment on a daily basis.
 
 It uses the MERN Stack.
-It is deployed using heruko app.
+
 
 The link to the website is:
 
